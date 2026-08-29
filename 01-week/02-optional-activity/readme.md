@@ -1,19 +1,19 @@
-# Semana 01 - Inteligencia de Negocios
+# Week 01 - Business Intelligence
 
-## Expectativas del curso
+## Course Expectations
 
-Espero aprender a transformar datos en información útil para facilitar la toma de decisiones.  
-También quiero aprender a utilizar Power BI para importar, limpiar, transformar y visualizar diferentes tipos de datos.  
-Me interesa comprender cómo construir dashboards que sean claros, interactivos y fáciles de interpretar.  
-Además, espero aprender a identificar patrones y tendencias a partir de grandes cantidades de información.  
-Me gustaría aplicar estos conocimientos a situaciones reales de mi entorno académico y profesional.  
-Como estudiante de Ingeniería de Sistemas, considero importante aprender a utilizar los datos como apoyo para resolver problemas.  
-Al finalizar el curso, espero poder desarrollar dashboards que permitan analizar información y presentar resultados de manera clara.
+I expect to learn how to transform data into useful information to support decision-making.  
+I also want to learn how to use Power BI to import, clean, transform, and visualize different types of data.  
+I am interested in understanding how to build dashboards that are clear, interactive, and easy to interpret.  
+In addition, I hope to learn how to identify patterns and trends from large amounts of information.  
+I would like to apply this knowledge to real situations in my academic and professional environment.  
+As a Systems Engineering student, I consider it important to learn how to use data to support problem-solving.  
+By the end of the course, I hope to be able to develop dashboards that allow information to be analyzed and results to be presented clearly.
 
-## Problema de datos
+## Data Problem
 
-Un problema que me gustaría analizar es el **rendimiento académico de los estudiantes de una institución universitaria**. Actualmente, la información sobre calificaciones, materias, semestres y estudiantes puede encontrarse distribuida en diferentes registros, lo que dificulta identificar rápidamente cuáles son las asignaturas con mayor cantidad de estudiantes con bajo rendimiento. Un dashboard permitiría visualizar los promedios, materias con mayor número de pérdidas, rendimiento por semestre y otras tendencias académicas. Esto podría ayudar a identificar situaciones que requieran atención y facilitar la toma de decisiones académicas.
+A problem I would like to analyze is the **academic performance of students at a university**. Currently, information about grades, subjects, semesters, and students may be distributed across different records, making it difficult to quickly identify which subjects have the highest number of students with low performance. A dashboard could be used to visualize average grades, subjects with the highest number of failed students, academic performance by semester, and other trends. This could help identify situations that require attention and support academic decision-making.
 
-## Fuente de datos
+## Data Source
 
-Los datos podrían obtenerse de una **base de datos académica de la institución**, utilizando información como estudiantes matriculados, asignaturas cursadas, calificaciones, programas académicos y periodos académicos. Si no se dispone de datos reales por motivos de privacidad, se podría utilizar un conjunto de datos ficticio construido con la misma estructura de una base de datos académica real.
+The data could be obtained from the **academic database of the university**, using information such as enrolled students, courses taken, grades, academic programs, and academic periods. If real data is not available due to privacy reasons, a fictional dataset could be created using the same structure as a real academic database.
