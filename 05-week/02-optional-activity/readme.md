@@ -1,42 +1,42 @@
-# Corte 1 - Inteligencia de Negocios
+# Corte 1 - Business Intelligence
 
-## Objetivos
+## Objectives
 
-- Autoevaluar los conceptos aprendidos durante el Corte 1.
-- Resolver un caso práctico de modelado estrella.
-- Identificar los temas que domino y aquellos que debo repasar antes del parcial.
+- Self-assess the concepts learned during Corte 1.
+- Solve a practical case involving star schema modeling.
+- Identify the topics I understand well and those that I need to review before the midterm exam.
 
 ---
 
-# 1. Resumen de conceptos del Corte 1
+# 1. Summary of Corte 1 Concepts
 
-## Cadena del dato
+## Data Chain
 
-La cadena del dato representa el proceso mediante el cual los datos se convierten en información útil para tomar decisiones. Este proceso comienza con la **captura de datos**, continúa con su **almacenamiento, transformación y análisis**, y finalmente permite generar información y conocimiento para apoyar la toma de decisiones.
+The data chain represents the process through which data is transformed into useful information for decision-making. This process begins with **data collection**, continues with its **storage, transformation, and analysis**, and ultimately allows organizations to generate information and knowledge to support decision-making.
 
-De forma general, la cadena puede representarse así:
+In general, the data chain can be represented as follows:
 
-**Datos → Información → Conocimiento → Decisiones**
+**Data → Information → Knowledge → Decisions**
 
-Por ejemplo, una farmacia registra cada venta realizada. Estos datos pueden transformarse en información sobre cuáles productos se venden más, posteriormente generar conocimiento sobre el comportamiento de los clientes y finalmente ayudar a tomar decisiones como aumentar el inventario de determinados productos.
+For example, a pharmacy records every sale made. This data can be transformed into information about which products are sold the most. This information can then generate knowledge about customer and sales behavior and finally support decisions such as increasing the inventory of certain products.
 
 ---
 
 ## KPI
 
-Un **KPI (Key Performance Indicator)** es un indicador clave de rendimiento que permite medir el cumplimiento de un objetivo específico de una organización.
+A **KPI (Key Performance Indicator)** is a key performance indicator used to measure the achievement of a specific organizational objective.
 
-Los KPI deben estar relacionados con objetivos y permitir evaluar el desempeño de un proceso.
+KPIs should be related to specific objectives and should allow the performance of a process or activity to be evaluated.
 
-Algunos ejemplos son:
+Some examples of KPIs are:
 
-- Ventas totales por mes.
-- Número de productos vendidos.
-- Ticket promedio.
-- Porcentaje de crecimiento de las ventas.
-- Cantidad de ventas por sucursal.
+- Total sales per month.
+- Number of products sold.
+- Average transaction value.
+- Sales growth percentage.
+- Number of sales per branch.
 
-Por ejemplo, si una farmacia tiene como objetivo aumentar sus ventas mensuales, un KPI podría ser el **porcentaje de crecimiento de las ventas respecto al mes anterior**.
+For example, if a pharmacy has the objective of increasing its monthly sales, an appropriate KPI could be the **percentage growth in sales compared to the previous month**.
 
 ---
 
@@ -44,247 +44,269 @@ Por ejemplo, si una farmacia tiene como objetivo aumentar sus ventas mensuales, 
 
 ### OLTP
 
-**OLTP (Online Transaction Processing)** se utiliza para gestionar las operaciones diarias de una organización.
+**OLTP (Online Transaction Processing)** is used to manage the daily operations of an organization.
 
-Su objetivo principal es registrar y procesar transacciones de manera rápida y consistente.
+Its main objective is to record and process transactions quickly, consistently, and securely.
 
-Ejemplos:
+Examples include:
 
-- Registrar una venta.
-- Registrar un pago.
-- Actualizar el inventario.
-- Crear una factura.
-- Registrar un cliente.
+- Recording a sale.
+- Recording a payment.
+- Updating inventory.
+- Creating an invoice.
+- Registering a customer.
 
-Las bases de datos OLTP normalmente están diseñadas para operaciones frecuentes de inserción, actualización y consulta de datos.
+OLTP databases are normally designed to perform frequent insert, update, and query operations.
 
 ### OLAP
 
-**OLAP (Online Analytical Processing)** está orientado al análisis de grandes cantidades de información.
+**OLAP (Online Analytical Processing)** is focused on analyzing large amounts of information.
 
-Permite consultar datos históricos y analizarlos desde diferentes perspectivas para apoyar la toma de decisiones.
+It allows historical data to be queried and analyzed from different perspectives to support decision-making.
 
-Ejemplos:
+Examples include:
 
-- Analizar las ventas por mes.
-- Comparar las ventas entre sucursales.
-- Identificar los productos más vendidos.
-- Analizar el comportamiento de las ventas durante varios años.
+- Analyzing sales by month.
+- Comparing sales between branches.
+- Identifying the best-selling products.
+- Analyzing sales behavior over several years.
 
-### Diferencia principal
+### Main Difference
 
 | OLTP | OLAP |
 |---|---|
-| Orientado a transacciones | Orientado al análisis |
-| Maneja operaciones del día a día | Maneja información histórica |
-| Muchas operaciones pequeñas | Consultas analíticas complejas |
-| Inserta y actualiza datos constantemente | Principalmente consulta datos |
-| Ejemplo: sistema de ventas | Ejemplo: Data Warehouse |
+| Transaction-oriented | Analysis-oriented |
+| Manages day-to-day operations | Analyzes historical information |
+| Handles many small transactions | Handles complex analytical queries |
+| Frequently inserts and updates data | Mainly queries data |
+| Example: sales transaction system | Example: Data Warehouse |
 
 ---
 
 ## Data Warehouse
 
-Un **Data Warehouse** es un repositorio centralizado de datos diseñado para realizar análisis y apoyar la toma de decisiones.
+A **Data Warehouse** is a centralized repository of data designed primarily for analysis and decision-making.
 
-Integra información proveniente de diferentes fuentes y conserva datos históricos que pueden ser analizados mediante herramientas de inteligencia de negocios.
+It integrates information from different sources and preserves historical data that can be analyzed using Business Intelligence tools.
 
-Entre sus principales características se encuentran:
+Some of its main characteristics are:
 
-- Integra información de diferentes fuentes.
-- Conserva información histórica.
-- Está orientado al análisis.
-- Facilita la generación de reportes.
-- Permite calcular indicadores y analizar tendencias.
+- Integrates information from different sources.
+- Preserves historical information.
+- Is analysis-oriented.
+- Facilitates report generation.
+- Allows organizations to calculate indicators and analyze trends.
 
-Por ejemplo, una cadena de farmacias puede utilizar un Data Warehouse para almacenar información histórica de sus ventas, productos y sucursales y posteriormente analizar cómo han evolucionado sus ventas durante varios meses o años.
+For example, a pharmacy chain can use a Data Warehouse to store historical information about sales, products, and branches and then analyze how sales have evolved over several months or years.
 
 ---
 
-## Modelo estrella
+## Star Schema
 
-El **modelo estrella** es una técnica de modelado utilizada principalmente en Data Warehouses.
+A **star schema** is a modeling technique mainly used in Data Warehouses.
 
-Está compuesto por una **tabla de hechos** ubicada en el centro y varias **dimensiones** relacionadas con ella.
+It consists of a **fact table** located at the center and several **dimension tables** connected to it.
 
-La tabla de hechos contiene los eventos que se desean analizar y las medidas numéricas asociadas a esos eventos.
+The fact table contains the business events that need to be analyzed and the numerical measures associated with those events.
 
-Las dimensiones contienen información descriptiva que permite analizar los hechos desde diferentes perspectivas.
+The dimension tables contain descriptive information that allows the facts to be analyzed from different perspectives.
 
-Su estructura recibe el nombre de modelo estrella porque visualmente la tabla de hechos se encuentra en el centro y las dimensiones alrededor de ella.
+The structure is called a star schema because the fact table is located at the center, while the dimensions are arranged around it.
 
-Ejemplo general:
+### General Example
 
 ```text
-                    DIM_PRODUCTO
+                    DIM_PRODUCT
                          |
                          |
-DIM_SUCURSAL ---- TABLA_HECHOS ---- DIM_TIEMPO
+DIM_BRANCH ------ FACT_TABLE ------ DIM_TIME
                          |
                          |
-                    DIM_CLIENTE
-
+                    DIM_CUSTOMER
 ```
 
-2. Caso práctico: Cadena de farmacias
-Enunciado
+2. Practical Case: Pharmacy Chain
+Problem Statement
 
-Una cadena de farmacias quiere analizar sus ventas por:
+A pharmacy chain wants to analyze its sales by:
 
-Producto.
-Sucursal.
-Mes.
+Product.
+Branch.
+Month.
 
-Para solucionar esta necesidad se propone utilizar un modelo estrella, donde la tabla central representa las ventas y las dimensiones permiten analizarlas desde diferentes perspectivas.
+To address this need, a star schema is proposed. The central fact table represents the sales transactions, while the dimensions allow the information to be analyzed from different perspectives.
 
-Modelo estrella propuesto
-                         DIM_PRODUCTO
+Proposed Star Schema
+                         DIM_PRODUCT
                               |
                               |
                               |
-DIM_SUCURSAL ----------- FACT_VENTAS ----------- DIM_TIEMPO
+DIM_BRANCH ------------ FACT_SALES ------------ DIM_TIME
                               |
                               |
                               |
-                         DIM_CLIENTE
+                         DIM_CUSTOMER
 
-Para el requerimiento mínimo del caso se utilizan Producto, Sucursal y Tiempo. La dimensión Cliente puede agregarse si la organización necesita analizar las ventas por cliente.
+For the minimum requirements of the case, the Product, Branch, and Time dimensions are used.
 
-Tabla de hechos: FACT_VENTAS
+The Customer dimension can be added if the organization needs to analyze sales by customer.
 
-La tabla de hechos representa cada evento de venta realizado en una sucursal.
+3. Fact Table: FACT_SALES
 
-Medidas
+The FACT_SALES fact table represents each sales event carried out at a branch.
 
-Las principales medidas propuestas son:
+This table stores the measures that will later be used for analysis.
 
-cantidad_vendida: cantidad de unidades vendidas.
-precio_unitario: precio de venta de cada unidad.
-descuento: valor descontado en la venta.
-total_venta: valor total de la venta.
-Claves
-producto_id
-sucursal_id
-tiempo_id
+Measures
 
-Estas claves permiten relacionar cada venta con sus respectivas dimensiones.
+The main proposed measures are:
 
-Ejemplo:
+Measure	Description
+quantity_sold	Number of units sold
+unit_price	Selling price of each unit
+discount	Discount amount applied to the sale
+total_sale	Total value of the sale
+Keys
 
-producto_id	sucursal_id	tiempo_id	cantidad_vendida	precio_unitario	descuento	total_venta
-101	5	202608	3	15000	0	45000
-205	2	202608	2	25000	5000	45000
-101	5	202609	5	15000	2000	73000
-Dimensión DIM_PRODUCTO
+The main foreign keys in the fact table are:
 
-Permite conocer las características de los productos vendidos.
+product_id
+branch_id
+time_id
 
-Atributos
-producto_id
-nombre_producto
-categoria
-marca
-presentacion
-laboratorio
-tipo_producto
+These keys allow each sale to be related to its corresponding dimensions.
 
-Ejemplo:
+Example of FACT_SALES
+product_id	branch_id	time_id	quantity_sold	unit_price	discount	total_sale
+101	1	20260801	3	15000	0	45000
+205	2	20260801	2	25000	5000	45000
+101	1	20260901	5	15000	2000	73000
+4. Dimension: DIM_PRODUCT
 
-producto_id	nombre_producto	categoria	marca	presentacion	laboratorio
-101	Acetaminofén	Analgésico	Genérica	Tabletas	Laboratorio A
-205	Vitamina C	Vitaminas	Marca X	Tabletas	Laboratorio B
-Dimensión DIM_SUCURSAL
+The DIM_PRODUCT dimension provides information about the products being sold.
 
-Permite analizar las ventas según la sucursal donde se realizó la operación.
+It allows sales to be analyzed according to categories, brands, presentations, laboratories, and other product characteristics.
 
-Atributos
-sucursal_id
-nombre_sucursal
-ciudad
-direccion
-zona
-tipo_sucursal
+Attributes
+product_id
+product_name
+category
+brand
+presentation
+laboratory
+product_type
+Example of DIM_PRODUCT
+product_id	product_name	category	brand	presentation	laboratory
+101	Acetaminophen	Analgesic	Generic	Tablets	Laboratory A
+205	Vitamin C	Vitamins	Brand X	Tablets	Laboratory B
 
-Ejemplo:
+This dimension allows the organization to answer questions such as:
 
-sucursal_id	nombre_sucursal	ciudad	zona
-1	Sucursal Centro	Neiva	Centro
-2	Sucursal Norte	Neiva	Norte
-3	Sucursal Sur	Neiva	Sur
-Dimensión DIM_TIEMPO
+Which product sells the most?
+Which category generates the highest sales?
+Which brand has the best results?
+5. Dimension: DIM_BRANCH
 
-Permite analizar las ventas a través del tiempo.
+The DIM_BRANCH dimension allows sales to be analyzed according to the branch where the transaction took place.
 
-Atributos
-tiempo_id
-fecha
-dia
-mes
-nombre_mes
-trimestre
-año
+Attributes
+branch_id
+branch_name
+city
+address
+zone
+branch_type
+Example of DIM_BRANCH
+branch_id	branch_name	city	zone
+1	Central Branch	Neiva	Central
+2	North Branch	Neiva	North
+3	South Branch	Neiva	South
 
-Ejemplo:
+This dimension allows the organization to answer questions such as:
 
-tiempo_id	fecha	mes	nombre_mes	trimestre	año
-20260801	2026-08-01	8	Agosto	3	2026
-20260802	2026-08-02	8	Agosto	3	2026
-20260901	2026-09-01	9	Septiembre	3	2026
-Relación entre hechos y dimensiones
+Which branch sells the most?
+Which city generates the highest revenue?
+Which zone has the highest sales volume?
+6. Dimension: DIM_TIME
 
-La estructura final del modelo sería:
+The DIM_TIME dimension allows sales to be analyzed over time.
 
-                         DIM_PRODUCTO
+It facilitates historical analysis and allows information to be grouped by day, month, quarter, or year.
+
+Attributes
+time_id
+date
+day
+month
+month_name
+quarter
+year
+Example of DIM_TIME
+time_id	date	month	month_name	quarter	year
+20260801	2026-08-01	8	August	3	2026
+20260802	2026-08-02	8	August	3	2026
+20260901	2026-09-01	9	September	3	2026
+7. Relationship Between Facts and Dimensions
+
+The final structure of the star schema is:
+
+                         DIM_PRODUCT
                          ------------
-                         producto_id
-                         nombre_producto
-                         categoria
-                         marca
-                         presentacion
-                         laboratorio
+                         product_id
+                         product_name
+                         category
+                         brand
+                         presentation
+                         laboratory
+                         product_type
                               |
                               |
                               |
-DIM_SUCURSAL ----------- FACT_VENTAS ----------- DIM_TIEMPO
-------------             -----------             ----------
-sucursal_id              producto_id             tiempo_id
-nombre_sucursal          sucursal_id             fecha
-ciudad                   tiempo_id               dia
-direccion                cantidad_vendida        mes
-zona                     precio_unitario         nombre_mes
-                         descuento               trimestre
-                         total_venta             año
-Justificación del modelo
+DIM_BRANCH ------------- FACT_SALES ------------- DIM_TIME
+-----------               ----------               ---------
+branch_id                 product_id               time_id
+branch_name               branch_id                date
+city                      time_id                  day
+address                   quantity_sold            month
+zone                      unit_price               month_name
+branch_type               discount                 quarter
+                          total_sale               year
 
-Se seleccionó un modelo estrella porque la necesidad principal de la cadena de farmacias es analizar las ventas desde diferentes perspectivas.
+The FACT_SALES table is located at the center because it contains the business events and measures that need to be analyzed.
 
-La tabla FACT_VENTAS representa el evento principal del negocio: una venta realizada. En ella se almacenan las medidas que pueden ser analizadas, como la cantidad vendida y el total de la venta.
+The dimension tables provide the descriptive context necessary to interpret the information stored in the fact table.
 
-La dimensión DIM_PRODUCTO permite responder preguntas relacionadas con los productos, por ejemplo:
+8. Model Justification
 
-¿Qué producto se vende más?
-¿Qué categoría genera mayores ventas?
-¿Qué marca tiene mejores resultados?
+A star schema was selected because the main requirement of the pharmacy chain is to analyze sales from different perspectives.
 
-La dimensión DIM_SUCURSAL permite analizar el rendimiento de cada establecimiento:
+The FACT_SALES table represents the main business event: a completed sale. It stores the measures that can be analyzed, such as quantity sold, unit price, discounts, and total sales.
 
-¿Qué sucursal vende más?
-¿Qué ciudad genera mayores ingresos?
-¿Qué zona tiene mayor volumen de ventas?
+The DIM_PRODUCT dimension allows the organization to answer questions related to products, such as:
 
-La dimensión DIM_TIEMPO permite realizar análisis históricos:
+Which product sells the most?
+Which category generates the highest sales?
+Which brand has the best results?
 
-¿Cuál fue el mes con mayores ventas?
-¿Cómo han evolucionado las ventas?
-¿Qué trimestre tuvo mejores resultados?
-¿Cómo se comportan las ventas año tras año?
+The DIM_BRANCH dimension allows the organization to analyze the performance of each branch, for example:
 
-Por lo tanto, el modelo permite combinar las dimensiones para realizar análisis como:
+Which branch sells the most?
+Which city generates the highest revenue?
+Which zone has the highest sales volume?
 
-Ventas por producto + sucursal + mes
+The DIM_TIME dimension allows historical analysis, such as:
 
-Por ejemplo:
+Which month had the highest sales?
+How have sales evolved over time?
+Which quarter had the best results?
+How do sales behave from year to year?
 
-¿Cuánto dinero generó la venta de Acetaminofén en la sucursal Centro durante agosto de 2026?
+Therefore, the model allows the dimensions to be combined to perform analyses such as:
 
-El modelo estrella facilita este tipo de consultas porque las dimensiones contienen la información descriptiva y la tabla de hechos contiene las medidas que serán analizadas.
+Sales by product + branch + month
+
+For example:
+
+How much revenue was generated by Acetaminophen sales at the Central Branch during August 2026?
+
+The star schema facilitates this type of query because the dimensions contain the descriptive information, while the fact table contains the measures that are analyzed.
