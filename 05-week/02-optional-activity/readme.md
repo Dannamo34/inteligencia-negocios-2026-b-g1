@@ -124,6 +124,8 @@ DIM_SUCURSAL ---- TABLA_HECHOS ---- DIM_TIEMPO
                          |
                     DIM_CLIENTE
 
+```
+
 2. Caso práctico: Cadena de farmacias
 Enunciado
 
