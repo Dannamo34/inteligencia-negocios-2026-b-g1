@@ -1,31 +1,31 @@
 ﻿id_producto,nombre_producto,categoria,material,precio_referencia,costo_referencia
-1,Aretes modelo 01,Aretes,Bisuteria,25000,11890.72
-2,Aretes modelo 02,Aretes,Bisuteria,20000,11474.04
-3,Anillos modelo 03,Anillos,Plata,50000,24657.11
-4,Anillos modelo 04,Anillos,Acero inoxidable,20000,7012.67
-5,Aretes modelo 05,aretes ,Plata,25000,13854.76
-6,Aretes modelo 06,Aretes,Plata,50000,28637.05
-7,Pulseras modelo 07,Pulseras,Miyuki,20000,8986.09
-8,Pulseras modelo 08,Pulseras,Bisuteria,50000,22204.31
-9,Aretes modelo 09,Aretes,Bisuteria,45000,19579.44
-10,Pulseras modelo 10,Pulseras,Bisuteria,25000,11609.05
-11,Pulseras modelo 11,Pulseras,Miyuki,15000,8429.23
-12,Pulseras modelo 12,Pulseras,Plata,30000,13666.63
-13,Anillos modelo 13,Anillos,Bisuteria,50000,18955.6
-14,Anillos modelo 14,Anillos,Miyuki,30000,17375.66
-15,Anillos modelo 15,Anillos,Plata,35000,20354.54
-16,Aretes modelo 16,Aretes,Mostacilla,35000,14214.59
-17,Aretes modelo 17,Aretes,Acero inoxidable,45000,21636.19
-18,Anillos modelo 18,Anillos,Mostacilla,30000,11568.09
-19,Aretes modelo 19,Aretes,Plata,45000,23632.96
-20,Pulseras modelo 20,Pulseras,Miyuki,35000,15768.2
-21,Anillos modelo 21,Anillos,Plata,50000,28555.63
-22,Collares modelo 22,Collares,Acero inoxidable,25000,13949.01
-23,Aretes modelo 23,Aretes,Bisuteria,20000,10278.21
-24,Anillos modelo 24,Anillos,Plata,50000,24036.11
-25,Pulseras modelo 25,Pulseras,Plata,20000,8300.55
-26,Anillos modelo 26,Anillos,Plata,35000,18958.65
-27,Anillos modelo 27,Anillos,Acero inoxidable,35000,18059.1
-28,Pulseras modelo 28,Pulseras,Acero inoxidable,25000,11610.35
-29,Anillos modelo 29,Anillos,Bisuteria,45000,23810.83
-30,Pulseras modelo 30,Pulseras,Mostacilla,30000,17414.78
+1,Aretes Luna,Aretes,Perlas,20000,8469.63
+2,Aretes Estrella,Aretes,Perlas,20000,11066.95
+3,Aretes Perla,aretes ,Perlas,45000,21510.39
+4,Aretes Flor,Aretes,Bisutería,42000,22837.6
+5,Aretes Corazón,Aretes,Miyuki,45000,20315.33
+6,Aretes Dorados,Aretes,Acero,45000,16585.49
+7,Aretes Mariposa,Aretes,Cristal,20000,9068.41
+8,Aretes Cristal,Aretes,Mostacilla,38000,19237.86
+9,Collar Sol,Collares,Acero,35000,14274.68
+10,Collar Perlas,Collares,Perlas,35000,20297.23
+11,Collar Inicial,COLLARES,Miyuki,20000,10326.32
+12,Collar Corazón,Collares,Acero,42000,19897.71
+13,Collar Minimalista,Collares,Cristal,38000,14531.36
+14,Collar Dorado,Collares,Cristal,45000,18948.14
+15,Collar Elegante,Collares,Bisutería,30000,13008.44
+16,Pulsera Miyuki,Pulseras,Perlas,20000,8834.36
+17,Pulsera Dorada,Pulseras,Miyuki,42000,19515.08
+18,Pulsera Perlas,Pulseras,Perlas,35000,16326.19
+19,Pulsera Corazón,Pulseras,Perlas,38000,16779.82
+20,Pulsera Tejida,Pulseras,Perlas,28000,15238.44
+21,Pulsera Cristal,Pulseras,Miyuki,38000,17783.18
+22,Pulsera Estrella,Pulseras,Mostacilla,45000,18073.83
+23,Pulsera Ajustable, Pulseras,Perlas,18000,10285.68
+24,Anillo Dorado,Anillos,Bisutería,20000,10299.61
+25,Anillo Plata,Anillos,Mostacilla,38000,14544.69
+26,Anillo Corazón,Anillos,Bisutería,20000,9882.68
+27,Anillo Perla,Anillos,Perlas,38000,19544.93
+28,Anillo Ajustable,Anillos,Cristal,28000,13405.09
+29,Anillo Elegante,Anillos,Cristal,28000,13330.08
+30,Anillo Minimalista,Anillos,Bisutería,42000,21445.81
