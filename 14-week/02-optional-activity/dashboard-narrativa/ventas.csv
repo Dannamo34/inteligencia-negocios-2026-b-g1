@@ -1,0 +1,501 @@
+﻿VentaID,Fecha,ProductoID,Producto,Categoria,Canal,Cantidad,PrecioUnitario,TotalVenta
+1,2025-11-24,P001,Aretes,Accesorios,Tienda física,3,20000,60000
+2,2025-04-25,P002,Collares,Accesorios,Tienda física,5,15000,75000
+3,2025-10-30,P004,Anillos,Accesorios,Tienda física,1,15000,15000
+4,2025-04-22,P002,Collares,Accesorios,Tienda física,5,20000,100000
+5,2025-11-29,P006,Carteras,Complementos,Facebook,2,30000,60000
+6,2025-10-29,P003,Pulseras,Accesorios,Tienda física,2,40000,80000
+7,2025-08-05,P003,Pulseras,Accesorios,WhatsApp,2,20000,40000
+8,2025-06-22,P001,Aretes,Accesorios,Tienda física,4,15000,60000
+9,2025-07-03,P003,Pulseras,Accesorios,WhatsApp,1,40000,40000
+10,2025-08-24,P005,Bolsos,Complementos,Tienda física,4,15000,60000
+11,2025-10-10,P003,Pulseras,Accesorios,WhatsApp,5,20000,100000
+12,2025-12-27,P001,Aretes,Accesorios,Tienda física,2,50000,100000
+13,2025-05-29,P001,Aretes,Accesorios,Instagram,1,30000,30000
+14,2025-05-23,P004,Anillos,Accesorios,WhatsApp,2,25000,50000
+15,2025-07-01,P002,Collares,Accesorios,WhatsApp,1,35000,35000
+16,2025-11-22,P002,Collares,Accesorios,Instagram,2,30000,60000
+17,2025-07-14,P003,Pulseras,Accesorios,Instagram,3,50000,150000
+18,2025-01-29,P002,Collares,Accesorios,Tienda física,3,30000,90000
+19,2025-05-18,P001,Aretes,Accesorios,Instagram,5,40000,200000
+20,2025-06-11,P002,Collares,Accesorios,Facebook,4,40000,160000
+21,2025-08-23,P002,Collares,Accesorios,WhatsApp,2,20000,40000
+22,2025-10-15,P005,Bolsos,Complementos,WhatsApp,5,30000,150000
+23,2025-10-26,P004,Anillos,Accesorios,WhatsApp,2,20000,40000
+24,2025-09-18,P004,Anillos,Accesorios,Tienda física,1,50000,50000
+25,2025-02-26,P002,Collares,Accesorios,Instagram,4,35000,140000
+26,2025-02-02,P004,Anillos,Accesorios,Facebook,5,30000,150000
+27,2025-09-28,P003,Pulseras,Accesorios,Tienda física,1,40000,40000
+28,2025-10-02,P003,Pulseras,Accesorios,WhatsApp,1,25000,25000
+29,2025-08-11,P002,Collares,Accesorios,Facebook,1,40000,40000
+30,2025-05-15,P005,Bolsos,Complementos,Instagram,5,15000,75000
+31,2025-11-17,P003,Pulseras,Accesorios,Instagram,2,25000,50000
+32,2025-03-24,P005,Bolsos,Complementos,Tienda física,5,25000,125000
+33,2025-09-08,P001,Aretes,Accesorios,Tienda física,3,50000,150000
+34,2025-06-07,P002,Collares,Accesorios,Tienda física,2,35000,70000
+35,2025-02-10,P001,Aretes,Accesorios,Facebook,1,50000,50000
+36,2025-09-30,P002,Collares,Accesorios,Instagram,4,35000,140000
+37,2025-03-26,P003,Pulseras,Accesorios,Facebook,2,35000,70000
+38,2025-12-20,P002,Collares,Accesorios,WhatsApp,4,40000,160000
+39,2025-11-29,P003,Pulseras,Accesorios,Facebook,5,30000,150000
+40,2025-03-03,P002,Collares,Accesorios,Instagram,1,25000,25000
+41,2025-01-11,P005,Bolsos,Complementos,Instagram,5,20000,100000
+42,2025-01-04,P001,Aretes,Accesorios,Tienda física,2,15000,30000
+43,2025-01-17,P003,Pulseras,Accesorios,Tienda física,5,20000,100000
+44,2025-05-23,P006,Carteras,Complementos,Facebook,2,35000,70000
+45,2025-03-09,P006,Carteras,Complementos,Facebook,2,50000,100000
+46,2025-08-31,P004,Anillos,Accesorios,Instagram,1,15000,15000
+47,2025-12-04,P004,Anillos,Accesorios,WhatsApp,4,30000,120000
+48,2025-08-28,P006,Carteras,Complementos,Tienda física,1,15000,15000
+49,2025-07-26,P006,Carteras,Complementos,WhatsApp,1,20000,20000
+50,2025-04-09,P002,Collares,Accesorios,Facebook,2,30000,60000
+51,2025-04-04,P003,Pulseras,Accesorios,Facebook,2,50000,100000
+52,2025-02-08,P004,Anillos,Accesorios,Tienda física,1,40000,40000
+53,2025-10-04,P001,Aretes,Accesorios,Tienda física,2,20000,40000
+54,2025-07-28,P004,Anillos,Accesorios,Facebook,2,50000,100000
+55,2025-07-25,P001,Aretes,Accesorios,Instagram,4,15000,60000
+56,2025-07-19,P003,Pulseras,Accesorios,Facebook,3,30000,90000
+57,2025-12-23,P006,Carteras,Complementos,Facebook,2,20000,40000
+58,2025-06-01,P002,Collares,Accesorios,Tienda física,5,40000,200000
+59,2025-10-05,P001,Aretes,Accesorios,WhatsApp,1,15000,15000
+60,2025-10-27,P004,Anillos,Accesorios,Instagram,1,35000,35000
+61,2025-02-11,P002,Collares,Accesorios,Tienda física,5,15000,75000
+62,2025-12-12,P002,Collares,Accesorios,Facebook,1,35000,35000
+63,2025-05-07,P005,Bolsos,Complementos,Tienda física,5,15000,75000
+64,2025-08-03,P006,Carteras,Complementos,WhatsApp,3,20000,60000
+65,2025-12-09,P006,Carteras,Complementos,WhatsApp,2,25000,50000
+66,2025-07-22,P002,Collares,Accesorios,WhatsApp,4,25000,100000
+67,2025-02-07,P001,Aretes,Accesorios,Facebook,5,35000,175000
+68,2025-02-21,P001,Aretes,Accesorios,Instagram,5,25000,125000
+69,2025-03-09,P003,Pulseras,Accesorios,Tienda física,2,25000,50000
+70,2025-05-26,P002,Collares,Accesorios,Facebook,5,40000,200000
+71,2025-06-04,P005,Bolsos,Complementos,Tienda física,5,25000,125000
+72,2025-12-06,P001,Aretes,Accesorios,Instagram,3,15000,45000
+73,2025-02-24,P006,Carteras,Complementos,Instagram,3,25000,75000
+74,2025-11-06,P002,Collares,Accesorios,WhatsApp,2,40000,80000
+75,2025-11-21,P003,Pulseras,Accesorios,Facebook,3,50000,150000
+76,2025-01-27,P001,Aretes,Accesorios,Facebook,3,15000,45000
+77,2025-01-02,P003,Pulseras,Accesorios,Instagram,3,20000,60000
+78,2025-08-15,P005,Bolsos,Complementos,Facebook,5,15000,75000
+79,2025-02-27,P001,Aretes,Accesorios,Instagram,5,15000,75000
+80,2025-07-09,P005,Bolsos,Complementos,Instagram,4,20000,80000
+81,2025-01-22,P003,Pulseras,Accesorios,WhatsApp,1,25000,25000
+82,2025-04-18,P006,Carteras,Complementos,Instagram,1,25000,25000
+83,2025-10-14,P004,Anillos,Accesorios,Instagram,2,50000,100000
+84,2025-03-25,P002,Collares,Accesorios,Facebook,1,20000,20000
+85,2025-06-20,P004,Anillos,Accesorios,Instagram,3,20000,60000
+86,2025-12-26,P001,Aretes,Accesorios,Facebook,1,50000,50000
+87,2025-08-29,P002,Collares,Accesorios,Instagram,4,25000,100000
+88,2025-06-06,P002,Collares,Accesorios,Instagram,1,40000,40000
+89,2025-04-09,P004,Anillos,Accesorios,WhatsApp,3,50000,150000
+90,2025-02-05,P003,Pulseras,Accesorios,WhatsApp,5,30000,150000
+91,2025-12-14,P005,Bolsos,Complementos,WhatsApp,1,15000,15000
+92,2025-05-14,P002,Collares,Accesorios,WhatsApp,1,15000,15000
+93,2025-11-02,P004,Anillos,Accesorios,WhatsApp,3,30000,90000
+94,2025-11-07,P005,Bolsos,Complementos,Tienda física,4,35000,140000
+95,2025-04-08,P003,Pulseras,Accesorios,Tienda física,4,15000,60000
+96,2025-09-24,P005,Bolsos,Complementos,Instagram,3,30000,90000
+97,2025-02-05,P006,Carteras,Complementos,WhatsApp,5,25000,125000
+98,2025-12-06,P001,Aretes,Accesorios,WhatsApp,5,25000,125000
+99,2025-12-08,P004,Anillos,Accesorios,WhatsApp,4,40000,160000
+100,2025-06-01,P005,Bolsos,Complementos,Instagram,2,30000,60000
+101,2025-12-07,P004,Anillos,Accesorios,Instagram,5,35000,175000
+102,2025-06-04,P004,Anillos,Accesorios,Tienda física,3,25000,75000
+103,2025-04-18,P004,Anillos,Accesorios,WhatsApp,4,30000,120000
+104,2025-08-15,P006,Carteras,Complementos,Instagram,5,30000,150000
+105,2025-03-28,P006,Carteras,Complementos,Tienda física,3,35000,105000
+106,2025-12-06,P006,Carteras,Complementos,WhatsApp,1,50000,50000
+107,2025-05-01,P006,Carteras,Complementos,WhatsApp,2,50000,100000
+108,2025-04-12,P002,Collares,Accesorios,Tienda física,1,20000,20000
+109,2025-09-01,P005,Bolsos,Complementos,Tienda física,4,30000,120000
+110,2025-11-19,P005,Bolsos,Complementos,Instagram,4,30000,120000
+111,2025-07-24,P002,Collares,Accesorios,Instagram,1,50000,50000
+112,2025-02-24,P004,Anillos,Accesorios,Instagram,2,50000,100000
+113,2025-12-23,P005,Bolsos,Complementos,Facebook,1,35000,35000
+114,2025-05-08,P001,Aretes,Accesorios,Facebook,2,50000,100000
+115,2025-08-26,P006,Carteras,Complementos,WhatsApp,4,35000,140000
+116,2025-09-16,P004,Anillos,Accesorios,Facebook,2,40000,80000
+117,2025-09-01,P004,Anillos,Accesorios,WhatsApp,2,50000,100000
+118,2025-11-23,P003,Pulseras,Accesorios,Facebook,2,25000,50000
+119,2025-08-14,P001,Aretes,Accesorios,WhatsApp,2,25000,50000
+120,2025-06-21,P003,Pulseras,Accesorios,Tienda física,2,20000,40000
+121,2025-04-29,P004,Anillos,Accesorios,Instagram,2,15000,30000
+122,2025-08-01,P004,Anillos,Accesorios,WhatsApp,5,30000,150000
+123,2025-08-01,P001,Aretes,Accesorios,Instagram,4,30000,120000
+124,2025-10-27,P006,Carteras,Complementos,Tienda física,5,30000,150000
+125,2025-09-02,P001,Aretes,Accesorios,WhatsApp,3,50000,150000
+126,2025-07-19,P004,Anillos,Accesorios,Instagram,4,20000,80000
+127,2025-05-20,P004,Anillos,Accesorios,Facebook,1,30000,30000
+128,2025-06-22,P006,Carteras,Complementos,Facebook,2,50000,100000
+129,2025-08-28,P002,Collares,Accesorios,Tienda física,4,35000,140000
+130,2025-10-16,P006,Carteras,Complementos,Tienda física,1,40000,40000
+131,2025-08-08,P002,Collares,Accesorios,Facebook,2,15000,30000
+132,2025-05-14,P004,Anillos,Accesorios,WhatsApp,2,30000,60000
+133,2025-06-17,P003,Pulseras,Accesorios,Facebook,3,50000,150000
+134,2025-08-04,P003,Pulseras,Accesorios,Tienda física,4,15000,60000
+135,2025-10-04,P001,Aretes,Accesorios,WhatsApp,2,40000,80000
+136,2025-02-05,P006,Carteras,Complementos,Tienda física,1,20000,20000
+137,2025-04-13,P001,Aretes,Accesorios,Instagram,2,20000,40000
+138,2025-08-31,P006,Carteras,Complementos,Tienda física,5,20000,100000
+139,2025-08-27,P006,Carteras,Complementos,WhatsApp,3,20000,60000
+140,2025-11-07,P005,Bolsos,Complementos,Tienda física,2,25000,50000
+141,2025-02-25,P005,Bolsos,Complementos,Tienda física,3,35000,105000
+142,2025-12-13,P004,Anillos,Accesorios,Facebook,2,15000,30000
+143,2025-10-31,P006,Carteras,Complementos,Instagram,1,40000,40000
+144,2025-06-04,P006,Carteras,Complementos,Tienda física,5,50000,250000
+145,2025-01-22,P003,Pulseras,Accesorios,Facebook,3,15000,45000
+146,2025-09-17,P006,Carteras,Complementos,WhatsApp,1,50000,50000
+147,2025-08-04,P004,Anillos,Accesorios,Tienda física,4,25000,100000
+148,2025-11-22,P004,Anillos,Accesorios,Instagram,4,20000,80000
+149,2025-09-25,P006,Carteras,Complementos,WhatsApp,5,50000,250000
+150,2025-10-03,P004,Anillos,Accesorios,Facebook,4,50000,200000
+151,2025-10-31,P003,Pulseras,Accesorios,WhatsApp,2,50000,100000
+152,2025-02-14,P003,Pulseras,Accesorios,Facebook,2,50000,100000
+153,2025-08-26,P005,Bolsos,Complementos,Facebook,3,15000,45000
+154,2025-09-11,P003,Pulseras,Accesorios,Instagram,4,20000,80000
+155,2025-07-01,P003,Pulseras,Accesorios,WhatsApp,3,35000,105000
+156,2025-12-26,P003,Pulseras,Accesorios,Tienda física,5,20000,100000
+157,2025-02-13,P002,Collares,Accesorios,Facebook,4,35000,140000
+158,2025-05-04,P006,Carteras,Complementos,Facebook,4,30000,120000
+159,2025-01-09,P001,Aretes,Accesorios,WhatsApp,2,30000,60000
+160,2025-12-21,P002,Collares,Accesorios,WhatsApp,5,25000,125000
+161,2025-08-31,P005,Bolsos,Complementos,WhatsApp,4,40000,160000
+162,2025-10-09,P003,Pulseras,Accesorios,WhatsApp,4,25000,100000
+163,2025-06-06,P003,Pulseras,Accesorios,Instagram,1,40000,40000
+164,2025-04-09,P003,Pulseras,Accesorios,Tienda física,5,50000,250000
+165,2025-12-20,P002,Collares,Accesorios,Instagram,2,40000,80000
+166,2025-09-05,P003,Pulseras,Accesorios,WhatsApp,1,50000,50000
+167,2025-04-10,P003,Pulseras,Accesorios,Instagram,3,20000,60000
+168,2025-06-04,P001,Aretes,Accesorios,Instagram,3,15000,45000
+169,2025-01-28,P005,Bolsos,Complementos,WhatsApp,2,40000,80000
+170,2025-09-09,P001,Aretes,Accesorios,Tienda física,5,25000,125000
+171,2025-08-29,P004,Anillos,Accesorios,Facebook,3,20000,60000
+172,2025-01-27,P003,Pulseras,Accesorios,Facebook,1,50000,50000
+173,2025-02-03,P004,Anillos,Accesorios,Facebook,1,35000,35000
+174,2025-11-19,P006,Carteras,Complementos,Tienda física,2,20000,40000
+175,2025-10-16,P003,Pulseras,Accesorios,Tienda física,2,15000,30000
+176,2025-10-13,P004,Anillos,Accesorios,Instagram,5,30000,150000
+177,2025-08-19,P004,Anillos,Accesorios,WhatsApp,5,30000,150000
+178,2025-06-06,P005,Bolsos,Complementos,Tienda física,5,40000,200000
+179,2025-02-20,P002,Collares,Accesorios,Instagram,3,40000,120000
+180,2025-02-11,P002,Collares,Accesorios,Instagram,2,35000,70000
+181,2025-02-08,P002,Collares,Accesorios,Tienda física,4,30000,120000
+182,2025-12-19,P005,Bolsos,Complementos,Facebook,3,15000,45000
+183,2025-04-29,P003,Pulseras,Accesorios,WhatsApp,4,15000,60000
+184,2025-12-18,P002,Collares,Accesorios,WhatsApp,5,40000,200000
+185,2025-04-12,P004,Anillos,Accesorios,Tienda física,5,20000,100000
+186,2025-11-28,P002,Collares,Accesorios,WhatsApp,2,15000,30000
+187,2025-01-31,P002,Collares,Accesorios,WhatsApp,5,40000,200000
+188,2025-10-19,P003,Pulseras,Accesorios,Facebook,1,30000,30000
+189,2025-12-19,P003,Pulseras,Accesorios,Facebook,3,35000,105000
+190,2025-10-04,P004,Anillos,Accesorios,Facebook,1,35000,35000
+191,2025-01-21,P004,Anillos,Accesorios,WhatsApp,5,25000,125000
+192,2025-01-14,P001,Aretes,Accesorios,Instagram,5,35000,175000
+193,2025-01-11,P006,Carteras,Complementos,WhatsApp,5,15000,75000
+194,2025-03-31,P004,Anillos,Accesorios,Facebook,3,20000,60000
+195,2025-10-27,P004,Anillos,Accesorios,Facebook,1,30000,30000
+196,2025-06-28,P004,Anillos,Accesorios,WhatsApp,3,40000,120000
+197,2025-02-23,P002,Collares,Accesorios,WhatsApp,4,40000,160000
+198,2025-09-11,P003,Pulseras,Accesorios,Facebook,5,15000,75000
+199,2025-08-21,P001,Aretes,Accesorios,WhatsApp,3,25000,75000
+200,2025-03-01,P004,Anillos,Accesorios,Tienda física,5,30000,150000
+201,2025-07-31,P001,Aretes,Accesorios,Instagram,5,25000,125000
+202,2025-11-15,P004,Anillos,Accesorios,Facebook,1,20000,20000
+203,2025-05-17,P005,Bolsos,Complementos,Instagram,3,30000,90000
+204,2025-12-24,P004,Anillos,Accesorios,Tienda física,1,40000,40000
+205,2025-11-08,P002,Collares,Accesorios,Instagram,3,35000,105000
+206,2025-01-08,P005,Bolsos,Complementos,Facebook,1,20000,20000
+207,2025-02-28,P004,Anillos,Accesorios,Tienda física,2,30000,60000
+208,2025-05-30,P005,Bolsos,Complementos,WhatsApp,4,50000,200000
+209,2025-09-05,P004,Anillos,Accesorios,Instagram,4,35000,140000
+210,2025-03-16,P004,Anillos,Accesorios,Instagram,5,35000,175000
+211,2025-03-11,P001,Aretes,Accesorios,WhatsApp,4,25000,100000
+212,2025-09-17,P003,Pulseras,Accesorios,Tienda física,3,40000,120000
+213,2025-06-02,P005,Bolsos,Complementos,Facebook,2,30000,60000
+214,2025-10-03,P004,Anillos,Accesorios,WhatsApp,3,35000,105000
+215,2025-10-06,P004,Anillos,Accesorios,Facebook,3,50000,150000
+216,2025-04-07,P006,Carteras,Complementos,Instagram,5,30000,150000
+217,2025-04-30,P004,Anillos,Accesorios,Tienda física,3,40000,120000
+218,2025-08-31,P006,Carteras,Complementos,Facebook,4,40000,160000
+219,2025-11-30,P002,Collares,Accesorios,Facebook,1,20000,20000
+220,2025-09-15,P005,Bolsos,Complementos,WhatsApp,1,50000,50000
+221,2025-08-14,P001,Aretes,Accesorios,Facebook,1,40000,40000
+222,2025-03-15,P004,Anillos,Accesorios,Instagram,1,30000,30000
+223,2025-05-16,P003,Pulseras,Accesorios,Facebook,1,50000,50000
+224,2025-06-18,P006,Carteras,Complementos,Facebook,3,40000,120000
+225,2025-09-07,P005,Bolsos,Complementos,Tienda física,5,15000,75000
+226,2025-05-01,P006,Carteras,Complementos,WhatsApp,2,40000,80000
+227,2025-02-16,P004,Anillos,Accesorios,Tienda física,1,30000,30000
+228,2025-03-27,P006,Carteras,Complementos,WhatsApp,1,15000,15000
+229,2025-06-16,P001,Aretes,Accesorios,WhatsApp,3,25000,75000
+230,2025-08-09,P002,Collares,Accesorios,Instagram,5,30000,150000
+231,2025-10-17,P006,Carteras,Complementos,Instagram,2,20000,40000
+232,2025-02-10,P005,Bolsos,Complementos,Facebook,5,40000,200000
+233,2025-05-04,P004,Anillos,Accesorios,Instagram,2,30000,60000
+234,2025-11-23,P003,Pulseras,Accesorios,Facebook,3,40000,120000
+235,2025-01-05,P004,Anillos,Accesorios,WhatsApp,5,20000,100000
+236,2025-02-07,P004,Anillos,Accesorios,WhatsApp,5,25000,125000
+237,2025-11-24,P004,Anillos,Accesorios,WhatsApp,4,50000,200000
+238,2025-06-04,P002,Collares,Accesorios,Facebook,4,15000,60000
+239,2025-05-02,P004,Anillos,Accesorios,WhatsApp,5,25000,125000
+240,2025-12-25,P003,Pulseras,Accesorios,Tienda física,4,25000,100000
+241,2025-01-05,P005,Bolsos,Complementos,Tienda física,5,40000,200000
+242,2025-09-12,P003,Pulseras,Accesorios,Instagram,5,50000,250000
+243,2025-06-30,P002,Collares,Accesorios,Instagram,5,25000,125000
+244,2025-12-14,P006,Carteras,Complementos,Instagram,1,40000,40000
+245,2025-11-27,P001,Aretes,Accesorios,WhatsApp,4,15000,60000
+246,2025-10-24,P003,Pulseras,Accesorios,Instagram,1,25000,25000
+247,2025-06-17,P006,Carteras,Complementos,Facebook,2,20000,40000
+248,2025-03-09,P005,Bolsos,Complementos,WhatsApp,5,35000,175000
+249,2025-05-20,P002,Collares,Accesorios,WhatsApp,4,50000,200000
+250,2025-06-01,P006,Carteras,Complementos,WhatsApp,1,30000,30000
+251,2025-02-08,P002,Collares,Accesorios,Instagram,4,50000,200000
+252,2025-10-13,P003,Pulseras,Accesorios,Tienda física,4,15000,60000
+253,2025-05-16,P005,Bolsos,Complementos,Tienda física,4,25000,100000
+254,2025-12-11,P006,Carteras,Complementos,WhatsApp,5,30000,150000
+255,2025-11-23,P003,Pulseras,Accesorios,Tienda física,2,30000,60000
+256,2025-01-13,P005,Bolsos,Complementos,WhatsApp,5,20000,100000
+257,2025-11-28,P001,Aretes,Accesorios,Facebook,3,40000,120000
+258,2025-07-29,P001,Aretes,Accesorios,Instagram,1,15000,15000
+259,2025-06-05,P004,Anillos,Accesorios,Tienda física,1,20000,20000
+260,2025-10-03,P002,Collares,Accesorios,Facebook,4,25000,100000
+261,2025-12-10,P006,Carteras,Complementos,Facebook,5,40000,200000
+262,2025-03-21,P004,Anillos,Accesorios,Tienda física,4,35000,140000
+263,2025-07-28,P003,Pulseras,Accesorios,Tienda física,3,20000,60000
+264,2025-08-16,P004,Anillos,Accesorios,Instagram,3,15000,45000
+265,2025-12-18,P003,Pulseras,Accesorios,WhatsApp,1,30000,30000
+266,2025-05-22,P002,Collares,Accesorios,Tienda física,4,15000,60000
+267,2025-12-06,P002,Collares,Accesorios,Tienda física,1,50000,50000
+268,2025-06-20,P002,Collares,Accesorios,Instagram,5,20000,100000
+269,2025-02-05,P005,Bolsos,Complementos,Instagram,5,20000,100000
+270,2025-04-30,P003,Pulseras,Accesorios,Instagram,5,15000,75000
+271,2025-05-22,P002,Collares,Accesorios,Instagram,5,25000,125000
+272,2025-03-31,P001,Aretes,Accesorios,Tienda física,2,15000,30000
+273,2025-07-03,P002,Collares,Accesorios,WhatsApp,1,20000,20000
+274,2025-05-16,P001,Aretes,Accesorios,Instagram,4,35000,140000
+275,2025-02-28,P006,Carteras,Complementos,Tienda física,4,30000,120000
+276,2025-07-05,P005,Bolsos,Complementos,Tienda física,4,35000,140000
+277,2025-04-24,P005,Bolsos,Complementos,Tienda física,5,25000,125000
+278,2025-08-23,P006,Carteras,Complementos,Tienda física,1,30000,30000
+279,2025-07-25,P004,Anillos,Accesorios,Tienda física,4,40000,160000
+280,2025-08-16,P001,Aretes,Accesorios,Tienda física,3,35000,105000
+281,2025-03-17,P001,Aretes,Accesorios,Instagram,3,35000,105000
+282,2025-11-21,P005,Bolsos,Complementos,WhatsApp,4,35000,140000
+283,2025-09-29,P003,Pulseras,Accesorios,Facebook,5,35000,175000
+284,2025-08-09,P001,Aretes,Accesorios,Tienda física,5,40000,200000
+285,2025-04-21,P004,Anillos,Accesorios,Facebook,2,30000,60000
+286,2025-06-23,P004,Anillos,Accesorios,Facebook,4,40000,160000
+287,2025-02-18,P003,Pulseras,Accesorios,Facebook,3,40000,120000
+288,2025-05-11,P003,Pulseras,Accesorios,Instagram,4,15000,60000
+289,2025-02-16,P001,Aretes,Accesorios,Tienda física,4,15000,60000
+290,2025-07-10,P002,Collares,Accesorios,Tienda física,5,35000,175000
+291,2025-10-15,P003,Pulseras,Accesorios,Tienda física,4,25000,100000
+292,2025-12-07,P004,Anillos,Accesorios,Tienda física,3,35000,105000
+293,2025-06-09,P003,Pulseras,Accesorios,Tienda física,5,35000,175000
+294,2025-04-19,P002,Collares,Accesorios,Facebook,2,50000,100000
+295,2025-02-25,P003,Pulseras,Accesorios,WhatsApp,1,50000,50000
+296,2025-05-23,P005,Bolsos,Complementos,Instagram,4,50000,200000
+297,2025-10-15,P005,Bolsos,Complementos,Tienda física,5,40000,200000
+298,2025-12-22,P003,Pulseras,Accesorios,Tienda física,2,25000,50000
+299,2025-12-26,P003,Pulseras,Accesorios,WhatsApp,3,15000,45000
+300,2025-04-03,P002,Collares,Accesorios,Facebook,1,20000,20000
+301,2025-11-21,P001,Aretes,Accesorios,Tienda física,5,20000,100000
+302,2025-07-12,P004,Anillos,Accesorios,Facebook,3,20000,60000
+303,2025-07-09,P003,Pulseras,Accesorios,WhatsApp,5,35000,175000
+304,2025-02-13,P001,Aretes,Accesorios,Instagram,2,50000,100000
+305,2025-11-13,P001,Aretes,Accesorios,Tienda física,3,30000,90000
+306,2025-12-05,P004,Anillos,Accesorios,Facebook,5,30000,150000
+307,2025-08-01,P003,Pulseras,Accesorios,Instagram,5,15000,75000
+308,2025-06-26,P004,Anillos,Accesorios,Tienda física,3,40000,120000
+309,2025-12-14,P005,Bolsos,Complementos,Facebook,5,40000,200000
+310,2025-06-07,P001,Aretes,Accesorios,Instagram,4,35000,140000
+311,2025-01-29,P001,Aretes,Accesorios,Instagram,3,20000,60000
+312,2025-03-12,P003,Pulseras,Accesorios,WhatsApp,3,15000,45000
+313,2025-01-04,P004,Anillos,Accesorios,Facebook,2,20000,40000
+314,2025-07-14,P005,Bolsos,Complementos,Instagram,5,35000,175000
+315,2025-12-09,P003,Pulseras,Accesorios,Tienda física,4,50000,200000
+316,2025-01-22,P004,Anillos,Accesorios,Tienda física,4,15000,60000
+317,2025-06-10,P005,Bolsos,Complementos,Facebook,5,30000,150000
+318,2025-12-30,P006,Carteras,Complementos,Facebook,3,15000,45000
+319,2025-07-27,P001,Aretes,Accesorios,WhatsApp,2,50000,100000
+320,2025-11-13,P004,Anillos,Accesorios,WhatsApp,1,30000,30000
+321,2025-02-24,P002,Collares,Accesorios,Facebook,5,30000,150000
+322,2025-09-26,P001,Aretes,Accesorios,Facebook,3,40000,120000
+323,2025-06-23,P002,Collares,Accesorios,WhatsApp,2,15000,30000
+324,2025-09-19,P006,Carteras,Complementos,Tienda física,5,35000,175000
+325,2025-04-10,P003,Pulseras,Accesorios,WhatsApp,2,20000,40000
+326,2025-02-22,P002,Collares,Accesorios,WhatsApp,2,20000,40000
+327,2025-11-05,P002,Collares,Accesorios,Tienda física,2,50000,100000
+328,2025-11-18,P004,Anillos,Accesorios,Facebook,5,50000,250000
+329,2025-10-24,P004,Anillos,Accesorios,WhatsApp,3,20000,60000
+330,2025-08-14,P001,Aretes,Accesorios,Facebook,4,40000,160000
+331,2025-06-05,P003,Pulseras,Accesorios,Tienda física,3,35000,105000
+332,2025-02-07,P003,Pulseras,Accesorios,Facebook,4,15000,60000
+333,2025-01-30,P003,Pulseras,Accesorios,WhatsApp,1,40000,40000
+334,2025-02-16,P005,Bolsos,Complementos,Facebook,4,35000,140000
+335,2025-10-11,P006,Carteras,Complementos,Tienda física,4,50000,200000
+336,2025-10-20,P006,Carteras,Complementos,Instagram,3,35000,105000
+337,2025-09-01,P005,Bolsos,Complementos,Instagram,1,30000,30000
+338,2025-02-22,P003,Pulseras,Accesorios,Tienda física,5,40000,200000
+339,2025-03-30,P001,Aretes,Accesorios,Instagram,4,30000,120000
+340,2025-09-26,P005,Bolsos,Complementos,Instagram,3,25000,75000
+341,2025-05-25,P004,Anillos,Accesorios,Facebook,3,40000,120000
+342,2025-11-03,P001,Aretes,Accesorios,WhatsApp,1,25000,25000
+343,2025-02-18,P005,Bolsos,Complementos,Facebook,3,25000,75000
+344,2025-12-03,P005,Bolsos,Complementos,Instagram,3,15000,45000
+345,2025-10-26,P006,Carteras,Complementos,Instagram,3,25000,75000
+346,2025-12-02,P006,Carteras,Complementos,Facebook,2,35000,70000
+347,2025-12-29,P001,Aretes,Accesorios,WhatsApp,5,30000,150000
+348,2025-11-26,P003,Pulseras,Accesorios,Instagram,5,15000,75000
+349,2025-11-27,P006,Carteras,Complementos,Facebook,5,25000,125000
+350,2025-01-10,P003,Pulseras,Accesorios,WhatsApp,2,20000,40000
+351,2025-06-24,P004,Anillos,Accesorios,Instagram,2,20000,40000
+352,2025-03-21,P001,Aretes,Accesorios,WhatsApp,1,35000,35000
+353,2025-10-04,P006,Carteras,Complementos,Tienda física,3,50000,150000
+354,2025-11-13,P002,Collares,Accesorios,Facebook,2,20000,40000
+355,2025-04-03,P006,Carteras,Complementos,Instagram,4,15000,60000
+356,2025-07-30,P003,Pulseras,Accesorios,Instagram,4,35000,140000
+357,2025-05-26,P006,Carteras,Complementos,Facebook,2,35000,70000
+358,2025-05-03,P003,Pulseras,Accesorios,Facebook,2,25000,50000
+359,2025-12-14,P005,Bolsos,Complementos,Facebook,4,50000,200000
+360,2025-05-25,P004,Anillos,Accesorios,Facebook,2,50000,100000
+361,2025-04-13,P005,Bolsos,Complementos,Instagram,3,15000,45000
+362,2025-11-25,P004,Anillos,Accesorios,WhatsApp,5,15000,75000
+363,2025-12-31,P005,Bolsos,Complementos,Tienda física,3,15000,45000
+364,2025-03-24,P003,Pulseras,Accesorios,Facebook,5,20000,100000
+365,2025-08-12,P001,Aretes,Accesorios,Instagram,4,25000,100000
+366,2025-01-14,P004,Anillos,Accesorios,Tienda física,4,35000,140000
+367,2025-07-11,P002,Collares,Accesorios,Facebook,1,25000,25000
+368,2025-04-25,P001,Aretes,Accesorios,WhatsApp,1,50000,50000
+369,2025-11-29,P003,Pulseras,Accesorios,Instagram,2,15000,30000
+370,2025-05-27,P004,Anillos,Accesorios,Instagram,4,30000,120000
+371,2025-11-12,P001,Aretes,Accesorios,Tienda física,1,25000,25000
+372,2025-04-21,P002,Collares,Accesorios,Facebook,1,50000,50000
+373,2025-05-28,P002,Collares,Accesorios,WhatsApp,1,15000,15000
+374,2025-05-03,P004,Anillos,Accesorios,Facebook,1,15000,15000
+375,2025-09-13,P005,Bolsos,Complementos,Tienda física,5,35000,175000
+376,2025-05-04,P006,Carteras,Complementos,Instagram,3,30000,90000
+377,2025-01-01,P005,Bolsos,Complementos,WhatsApp,2,35000,70000
+378,2025-08-02,P002,Collares,Accesorios,Tienda física,5,25000,125000
+379,2025-02-04,P005,Bolsos,Complementos,Tienda física,4,50000,200000
+380,2025-08-29,P001,Aretes,Accesorios,Facebook,3,25000,75000
+381,2025-01-09,P003,Pulseras,Accesorios,Tienda física,3,20000,60000
+382,2025-12-03,P006,Carteras,Complementos,Tienda física,5,40000,200000
+383,2025-06-20,P002,Collares,Accesorios,Tienda física,3,35000,105000
+384,2025-06-23,P006,Carteras,Complementos,Instagram,4,40000,160000
+385,2025-09-03,P006,Carteras,Complementos,Instagram,2,15000,30000
+386,2025-08-23,P001,Aretes,Accesorios,WhatsApp,2,15000,30000
+387,2025-04-13,P001,Aretes,Accesorios,WhatsApp,3,35000,105000
+388,2025-07-23,P005,Bolsos,Complementos,Facebook,3,15000,45000
+389,2025-11-28,P002,Collares,Accesorios,WhatsApp,3,50000,150000
+390,2025-01-25,P006,Carteras,Complementos,WhatsApp,3,15000,45000
+391,2025-07-08,P004,Anillos,Accesorios,Facebook,4,30000,120000
+392,2025-06-23,P002,Collares,Accesorios,Facebook,4,25000,100000
+393,2025-09-23,P003,Pulseras,Accesorios,Tienda física,4,15000,60000
+394,2025-08-09,P005,Bolsos,Complementos,Instagram,5,25000,125000
+395,2025-06-14,P001,Aretes,Accesorios,Tienda física,3,40000,120000
+396,2025-06-01,P003,Pulseras,Accesorios,Facebook,5,40000,200000
+397,2025-08-07,P002,Collares,Accesorios,Facebook,3,30000,90000
+398,2025-01-22,P006,Carteras,Complementos,WhatsApp,5,30000,150000
+399,2025-05-21,P006,Carteras,Complementos,Tienda física,1,40000,40000
+400,2025-11-23,P004,Anillos,Accesorios,WhatsApp,5,50000,250000
+401,2025-12-14,P002,Collares,Accesorios,Tienda física,2,50000,100000
+402,2025-11-08,P006,Carteras,Complementos,Facebook,1,20000,20000
+403,2025-02-04,P002,Collares,Accesorios,WhatsApp,3,30000,90000
+404,2025-10-18,P001,Aretes,Accesorios,Instagram,4,25000,100000
+405,2025-07-10,P004,Anillos,Accesorios,Tienda física,5,20000,100000
+406,2025-09-29,P003,Pulseras,Accesorios,Facebook,3,40000,120000
+407,2025-05-23,P002,Collares,Accesorios,Tienda física,1,40000,40000
+408,2025-04-06,P004,Anillos,Accesorios,Facebook,5,15000,75000
+409,2025-05-15,P003,Pulseras,Accesorios,Facebook,2,35000,70000
+410,2025-05-27,P006,Carteras,Complementos,Facebook,2,15000,30000
+411,2025-03-11,P001,Aretes,Accesorios,Facebook,2,40000,80000
+412,2025-08-16,P001,Aretes,Accesorios,WhatsApp,3,40000,120000
+413,2025-02-03,P005,Bolsos,Complementos,WhatsApp,3,50000,150000
+414,2025-03-22,P006,Carteras,Complementos,Instagram,3,35000,105000
+415,2025-04-25,P001,Aretes,Accesorios,Instagram,2,20000,40000
+416,2025-09-10,P001,Aretes,Accesorios,WhatsApp,5,35000,175000
+417,2025-07-08,P004,Anillos,Accesorios,Instagram,5,15000,75000
+418,2025-02-03,P003,Pulseras,Accesorios,Facebook,4,35000,140000
+419,2025-07-30,P004,Anillos,Accesorios,Tienda física,2,25000,50000
+420,2025-11-25,P001,Aretes,Accesorios,Facebook,4,40000,160000
+421,2025-09-22,P003,Pulseras,Accesorios,Instagram,5,40000,200000
+422,2025-10-28,P002,Collares,Accesorios,Instagram,4,35000,140000
+423,2025-01-29,P001,Aretes,Accesorios,Instagram,3,20000,60000
+424,2025-03-24,P003,Pulseras,Accesorios,Instagram,3,35000,105000
+425,2025-05-26,P001,Aretes,Accesorios,WhatsApp,2,40000,80000
+426,2025-10-10,P003,Pulseras,Accesorios,Instagram,3,35000,105000
+427,2025-10-01,P001,Aretes,Accesorios,Instagram,5,35000,175000
+428,2025-03-20,P002,Collares,Accesorios,WhatsApp,5,15000,75000
+429,2025-01-15,P001,Aretes,Accesorios,Tienda física,5,25000,125000
+430,2025-11-30,P002,Collares,Accesorios,Facebook,5,40000,200000
+431,2025-01-16,P004,Anillos,Accesorios,WhatsApp,3,30000,90000
+432,2025-05-06,P006,Carteras,Complementos,Facebook,3,30000,90000
+433,2025-02-07,P006,Carteras,Complementos,Tienda física,2,30000,60000
+434,2025-08-01,P004,Anillos,Accesorios,Facebook,2,25000,50000
+435,2025-11-07,P002,Collares,Accesorios,WhatsApp,3,40000,120000
+436,2025-06-26,P004,Anillos,Accesorios,Instagram,3,35000,105000
+437,2025-10-15,P001,Aretes,Accesorios,WhatsApp,2,30000,60000
+438,2025-03-04,P003,Pulseras,Accesorios,Facebook,2,20000,40000
+439,2025-02-19,P001,Aretes,Accesorios,WhatsApp,4,50000,200000
+440,2025-11-12,P004,Anillos,Accesorios,Instagram,2,50000,100000
+441,2025-06-17,P005,Bolsos,Complementos,WhatsApp,2,50000,100000
+442,2025-03-23,P004,Anillos,Accesorios,Facebook,4,25000,100000
+443,2025-09-12,P001,Aretes,Accesorios,Tienda física,4,35000,140000
+444,2025-08-23,P002,Collares,Accesorios,Instagram,5,25000,125000
+445,2025-01-25,P001,Aretes,Accesorios,WhatsApp,4,35000,140000
+446,2025-12-01,P006,Carteras,Complementos,Facebook,3,35000,105000
+447,2025-01-05,P001,Aretes,Accesorios,Facebook,2,25000,50000
+448,2025-07-07,P004,Anillos,Accesorios,WhatsApp,1,30000,30000
+449,2025-01-27,P005,Bolsos,Complementos,Instagram,3,35000,105000
+450,2025-05-28,P001,Aretes,Accesorios,Facebook,5,30000,150000
+451,2025-10-09,P003,Pulseras,Accesorios,Tienda física,2,15000,30000
+452,2025-07-21,P003,Pulseras,Accesorios,WhatsApp,5,25000,125000
+453,2025-03-15,P002,Collares,Accesorios,Facebook,5,15000,75000
+454,2025-01-24,P001,Aretes,Accesorios,Instagram,3,50000,150000
+455,2025-08-31,P005,Bolsos,Complementos,Facebook,2,35000,70000
+456,2025-09-21,P002,Collares,Accesorios,WhatsApp,5,25000,125000
+457,2025-03-25,P004,Anillos,Accesorios,WhatsApp,5,25000,125000
+458,2025-09-17,P005,Bolsos,Complementos,Facebook,5,25000,125000
+459,2025-09-01,P001,Aretes,Accesorios,WhatsApp,3,40000,120000
+460,2025-02-26,P004,Anillos,Accesorios,WhatsApp,1,35000,35000
+461,2025-08-31,P003,Pulseras,Accesorios,Instagram,1,35000,35000
+462,2025-09-03,P002,Collares,Accesorios,Facebook,2,50000,100000
+463,2025-12-15,P002,Collares,Accesorios,Tienda física,5,40000,200000
+464,2025-02-26,P002,Collares,Accesorios,Tienda física,4,25000,100000
+465,2025-08-03,P002,Collares,Accesorios,Facebook,2,30000,60000
+466,2025-09-14,P005,Bolsos,Complementos,Facebook,1,40000,40000
+467,2025-03-12,P005,Bolsos,Complementos,Instagram,5,25000,125000
+468,2025-12-06,P004,Anillos,Accesorios,Facebook,3,20000,60000
+469,2025-08-24,P005,Bolsos,Complementos,WhatsApp,5,25000,125000
+470,2025-12-13,P006,Carteras,Complementos,WhatsApp,5,30000,150000
+471,2025-04-09,P002,Collares,Accesorios,WhatsApp,5,25000,125000
+472,2025-04-26,P003,Pulseras,Accesorios,WhatsApp,2,40000,80000
+473,2025-12-27,P004,Anillos,Accesorios,WhatsApp,4,25000,100000
+474,2025-10-14,P006,Carteras,Complementos,WhatsApp,3,15000,45000
+475,2025-10-21,P006,Carteras,Complementos,Facebook,4,50000,200000
+476,2025-06-26,P002,Collares,Accesorios,WhatsApp,1,25000,25000
+477,2025-02-10,P003,Pulseras,Accesorios,Facebook,3,40000,120000
+478,2025-09-03,P002,Collares,Accesorios,Instagram,5,25000,125000
+479,2025-10-15,P006,Carteras,Complementos,WhatsApp,2,15000,30000
+480,2025-11-12,P006,Carteras,Complementos,Instagram,2,15000,30000
+481,2025-12-09,P005,Bolsos,Complementos,Instagram,2,15000,30000
+482,2025-02-21,P004,Anillos,Accesorios,WhatsApp,4,15000,60000
+483,2025-12-15,P002,Collares,Accesorios,Tienda física,5,20000,100000
+484,2025-07-28,P006,Carteras,Complementos,Facebook,4,40000,160000
+485,2025-04-13,P003,Pulseras,Accesorios,WhatsApp,3,40000,120000
+486,2025-01-31,P001,Aretes,Accesorios,Instagram,5,40000,200000
+487,2025-01-20,P002,Collares,Accesorios,Facebook,2,15000,30000
+488,2025-07-23,P004,Anillos,Accesorios,Instagram,3,15000,45000
+489,2025-01-05,P003,Pulseras,Accesorios,Tienda física,3,25000,75000
+490,2025-08-21,P006,Carteras,Complementos,Facebook,2,50000,100000
+491,2025-09-16,P004,Anillos,Accesorios,WhatsApp,2,50000,100000
+492,2025-02-27,P003,Pulseras,Accesorios,Instagram,4,40000,160000
+493,2025-05-12,P006,Carteras,Complementos,Instagram,1,40000,40000
+494,2025-06-22,P003,Pulseras,Accesorios,Instagram,2,35000,70000
+495,2025-11-24,P004,Anillos,Accesorios,Facebook,5,25000,125000
+496,2025-02-14,P004,Anillos,Accesorios,Tienda física,2,20000,40000
+497,2025-09-02,P003,Pulseras,Accesorios,Instagram,1,25000,25000
+498,2025-07-16,P002,Collares,Accesorios,Facebook,3,25000,75000
+499,2025-06-04,P005,Bolsos,Complementos,Tienda física,3,40000,120000
+500,2025-07-04,P006,Carteras,Complementos,Instagram,1,40000,40000
