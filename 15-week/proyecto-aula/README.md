@@ -1,13 +1,13 @@
 
 # Proyecto de Aula – Inteligencia de Negocios
-## Nani Accesorios
+# Nani Accesorios
 
-### 1. Información general
+## 1. Información general
 
 | Campo | Información |
 |---|---|
 | Institución | Corporación Universitaria del Huila – CORHUILA |
-| Programa | Ingeniería de Sistemas |
+| Programa | Ingeniería de Sistemas e Ingeniería Ambiental |
 | Asignatura | Electiva Inteligencia de Negocios |
 | Periodo académico | 2026-B |
 | Corte | Corte 3 |
@@ -19,114 +19,115 @@
 | Herramienta de análisis | Microsoft Power BI |
 | Periodo de análisis | 1 de enero al 31 de diciembre de 2025 |
 
----
-
-### 2. Descripción de la empresa
+## 2. Descripción de la empresa
 
 Nani Accesorios es una empresa ficticia ubicada en Neiva, Huila, dedicada a la comercialización de accesorios como aretes, collares, pulseras y anillos.
 
 La empresa ofrece productos elaborados con materiales como miyuki, mostacilla, acero, perlas y otros elementos de bisutería. Sus ventas se realizan principalmente mediante redes sociales, mensajería y atención directa a los clientes.
 
-Para este proyecto se construye un conjunto de datos sintéticos que representa las operaciones comerciales de la empresa durante el año 2025. La información permite analizar las ventas, los descuentos, los costos y la rentabilidad de los productos y canales comerciales.
+Para este proyecto se construyó un conjunto de datos sintéticos que representa las operaciones comerciales de la empresa durante el año 2025. La información permite analizar las ventas, los descuentos, los costos y la utilidad de los productos y canales comerciales.
 
-### 3. Problema empresarial
+## 3. Problema empresarial
 
-Nani Accesorios no cuenta con un proceso centralizado de análisis que permita identificar con claridad cuáles productos y canales generan mayor rentabilidad.
+Nani Accesorios no cuenta con un proceso centralizado de análisis que permita identificar con claridad cuáles productos y canales generan mejores resultados comerciales.
 
-Las decisiones sobre descuentos y promoción de productos se pueden tomar considerando principalmente el volumen de ventas, sin evaluar suficientemente los costos y el efecto de los descuentos sobre el margen bruto.
+Las decisiones sobre descuentos y promoción de productos pueden tomarse considerando principalmente el volumen de ventas, sin evaluar suficientemente los costos y la utilidad obtenida.
 
-Esta situación puede ocasionar que la empresa impulse productos o canales que generan muchas ventas, pero que dejan una ganancia menor. Por esta razón, se plantea implementar una solución de Inteligencia de Negocios que integre los datos y facilite la toma de decisiones comerciales.
+Esta situación puede ocasionar que la empresa impulse productos o canales que generan muchas ventas, pero que dejan una ganancia menor.
 
-### 4. Pregunta de negocio
+Por esta razón, se plantea implementar una solución de Inteligencia de Negocios que integre los datos y facilite la toma de decisiones comerciales.
 
-¿Qué categorías y canales de venta generaron mayor margen bruto en Nani Accesorios durante 2025, y dónde conviene concentrar o ajustar los descuentos para aprovechar las temporadas de mayor demanda?
+## 4. Pregunta de negocio
 
-### 5. Objetivos
+¿Qué categorías y canales de venta generan mejores resultados comerciales en Nani Accesorios durante 2025, y cómo se pueden utilizar los datos de ventas, descuentos y utilidad para mejorar las decisiones comerciales?
 
-#### 5.1. Objetivo general
+## 5. Objetivos
 
-Desarrollar una solución de Inteligencia de Negocios para analizar las ventas, los costos, los descuentos y el margen bruto de Nani Accesorios durante 2025, con el propósito de identificar oportunidades de mejora en las decisiones comerciales.
+### 5.1. Objetivo general
 
-#### 5.2. Objetivos específicos
+Desarrollar una solución de Inteligencia de Negocios para analizar las ventas, los costos, los descuentos y la utilidad de Nani Accesorios durante 2025, con el propósito de identificar oportunidades de mejora en las decisiones comerciales.
+
+### 5.2. Objetivos específicos
 
 - Integrar la información comercial en un modelo de datos estructurado.
 - Generar datos sintéticos que representen las operaciones de la empresa durante los doce meses de 2025.
 - Identificar y corregir problemas de calidad de datos mediante Power Query.
 - Construir un modelo dimensional tipo estrella.
-- Crear medidas DAX para analizar ventas, costos, descuentos y rentabilidad.
-- Diseñar un tablero interactivo en Power BI para apoyar las decisiones sobre productos, canales y temporadas.
+- Crear medidas DAX para analizar las ventas, los descuentos, los costos y la utilidad.
+- Diseñar un tablero interactivo en Power BI para apoyar las decisiones sobre productos, canales y comportamiento comercial.
 
-### 6. Indicador principal y métricas
+## 6. Indicadores del proyecto
 
-El indicador principal del proyecto es el margen bruto porcentual.
-
-**Margen bruto (%)**
-
-```text
-Margen bruto (%) =
-((Ventas netas - Costo de ventas) / Ventas netas) * 100
-```
-
-Se utilizarán los siguientes indicadores complementarios:
+Para analizar el comportamiento comercial se utilizan los siguientes indicadores:
 
 | Indicador | Descripción |
 |---|---|
-| Ventas brutas | Valor total de los productos antes de descuentos |
-| Descuentos | Valor monetario descontado en las ventas |
-| Ventas netas | Ventas brutas menos descuentos |
-| Costo de ventas | Costo de los productos vendidos |
-| Margen bruto | Ventas netas menos costo de ventas |
-| Margen bruto (%) | Porcentaje de margen respecto a las ventas netas |
-| Unidades vendidas | Cantidad total de productos vendidos |
+| Ventas brutas | Valor total de las ventas antes de aplicar descuentos |
+| Descuentos | Valor de los descuentos aplicados |
+| Ventas netas | Valor de las ventas después de los descuentos |
+| Costos | Valor asociado al costo de los productos vendidos |
+| Utilidad | Resultado de las ventas después de considerar los costos |
+| Cantidad vendida | Total de unidades comercializadas |
+| Número de ventas | Cantidad de ventas registradas |
 
-### 7. Alcance del proyecto
+El análisis de estos indicadores permite comparar los resultados por producto, categoría, canal y periodo.
+
+El margen bruto porcentual también hace parte del enfoque de análisis del proyecto. Su cálculo y resultado deberán comprobarse con las medidas definitivas del archivo Power BI.
+
+## 7. Alcance del proyecto
 
 El proyecto comprende el análisis de las operaciones comerciales ficticias de Nani Accesorios durante el año 2025.
 
-Se analizarán:
+Se analizan los siguientes aspectos:
 
-- Las ventas por mes y temporada.
+- Las ventas durante los diferentes meses del año.
 - El comportamiento de las categorías y productos.
 - La participación de los canales de venta.
 - Los descuentos aplicados.
-- Los costos y el margen bruto.
-- Las oportunidades para mejorar las decisiones comerciales.
+- Los costos y la utilidad.
+- El comportamiento de los indicadores mediante filtros interactivos.
 
 El proyecto no utiliza información financiera real de una empresa. Todos los datos son sintéticos y se generan con fines académicos.
 
-### 8. Modelo de datos
+## 8. Modelo de datos
 
-Se utiliza un modelo dimensional tipo estrella compuesto por una tabla de hechos y cuatro dimensiones.
+Se construyó un modelo dimensional tipo estrella compuesto por una tabla de hechos y cuatro dimensiones.
 
-**Tabla de hechos:**
+### 8.1. Tabla de hechos
 
 - `fact_ventas`: contiene los detalles de las transacciones comerciales, las cantidades, los precios, los descuentos y los costos.
 
-**Tablas de dimensiones:**
+### 8.2. Tablas de dimensiones
 
 - `dim_fecha`: contiene la información del calendario.
 - `dim_producto`: contiene los productos, sus categorías, materiales, precios y costos de referencia.
 - `dim_cliente`: contiene información ficticia de los clientes.
 - `dim_canal`: contiene los canales utilizados para realizar las ventas.
 
-**Relaciones del modelo:**
+### 8.3. Relaciones del modelo
 
-- `dim_fecha[id_fecha]` → `fact_ventas[id_fecha]`
-- `dim_producto[id_producto]` → `fact_ventas[id_producto]`
-- `dim_cliente[id_cliente]` → `fact_ventas[id_cliente]`
-- `dim_canal[id_canal]` → `fact_ventas[id_canal]`
+Las relaciones establecidas en Power BI son:
 
-Cada dimensión se relaciona con la tabla de hechos mediante una relación de uno a varios (1:N).
+- `dim_cliente` → `fact_ventas`
+- `dim_producto` → `fact_ventas`
+- `dim_fecha` → `fact_ventas`
+- `dim_canal` → `fact_ventas`
 
-**Granularidad:** cada registro de `fact_ventas` representa una línea o detalle de producto perteneciente a una transacción. Por esta razón, un mismo `id_venta` puede aparecer en varias filas cuando una compra contiene diferentes productos.
+Cada dimensión proporciona información relacionada con los registros de la tabla de hechos y permite realizar análisis desde diferentes perspectivas.
+
+La estructura corresponde a un modelo estrella, donde la tabla de hechos centraliza las operaciones comerciales y las dimensiones permiten clasificarlas.
+
+### 8.4. Granularidad
+
+Cada registro de `fact_ventas` representa una línea o detalle de producto perteneciente a una transacción. Por esta razón, un mismo identificador de venta puede aparecer en varias filas cuando una compra contiene diferentes productos.
 
 El detalle de cada línea se identifica mediante `id_detalle_venta`.
 
-### 9. Generación de los datos
+## 9. Generación de los datos
 
-Los datos se generan mediante el script `data/generar_datos.py`, desarrollado en Python.
+Los datos del proyecto se generan mediante un script desarrollado en Python.
 
-El generador crea cinco archivos CSV:
+El conjunto de datos está compuesto por cinco archivos CSV:
 
 | Archivo | Contenido |
 |---|---|
@@ -145,99 +146,204 @@ Las reglas utilizadas para generar los datos son:
 5. Se generan 1.200 transacciones, con una o varias líneas de productos por compra.
 6. Algunos productos tienen mayor probabilidad de venta para representar productos estrella.
 7. Mayo, septiembre y diciembre tienen una mayor demanda simulada por las temporadas comerciales.
-8. Los descuentos varían según el canal de venta para permitir analizar su efecto sobre el margen bruto.
+8. Los descuentos varían según el canal de venta.
 9. Los identificadores de las dimensiones se utilizan como claves de relación con la tabla de hechos.
 10. Se incluyen problemas intencionales de calidad para demostrar su tratamiento en Power Query.
 
 La generación utiliza una semilla aleatoria fija para que los resultados puedan reproducirse al ejecutar nuevamente el script.
 
-### 10. Calidad y transformación de los datos
+## 10. Calidad y transformación de los datos
 
-El proyecto incorpora problemas intencionales de calidad que serán identificados y corregidos mediante Power Query.
+Los datos originales contienen problemas intencionales de calidad que fueron tratados mediante Power Query.
 
-| Problema | Tratamiento esperado |
+Durante el proceso se realizaron las siguientes actividades:
+
+- Importación de las cinco tablas CSV en Power BI.
+- Verificación de los tipos de datos de las columnas.
+- Asignación de números enteros a los identificadores y cantidades.
+- Asignación de números decimales a los valores monetarios.
+- Configuración del tipo fecha para las fechas de venta.
+- Limpieza de inconsistencias en las categorías.
+- Eliminación de espacios innecesarios.
+
+El proceso permitió preparar la información para su utilización en el modelo de datos y en las visualizaciones.
+
+Los archivos CSV originales se conservan como fuente de datos, mientras que las transformaciones se realizan en Power Query.
+
+## 11. Herramientas utilizadas
+
+| Herramienta | Utilización |
 |---|---|
-| Filas duplicadas | Identificar y eliminar duplicados exactos |
-| Fechas con formatos diferentes | Convertirlas a un formato de fecha uniforme |
-| Categorías con espacios o escritura irregular | Limpiar espacios y estandarizar los nombres |
+| Python | Generación y validación de datos sintéticos |
+| CSV | Almacenamiento de las tablas de datos |
+| Visual Studio Code | Edición y organización del código y la documentación |
+| Power Query | Limpieza y transformación de los datos |
+| Power BI Desktop | Construcción del modelo, medidas DAX y tablero interactivo |
+| Git y GitHub | Control de versiones y almacenamiento del proyecto |
 
-El generador incluye varios casos de cada problema para que el proceso de limpieza sea visible y pueda documentarse mediante evidencias de antes y después.
+## 12. Desarrollo del tablero en Power BI
 
-La validación inicial se realiza con `data/validar_datos.py`. Este script comprueba la estructura de los archivos, las claves, las relaciones entre las tablas, las cantidades de registros y los problemas intencionales.
+El tablero de Power BI está organizado en tres páginas principales: Resumen, Productos y Canales.
 
-Los archivos CSV originales se conservan como fuente de datos. La limpieza para el análisis se realiza en Power Query.
+### 12.1. Página Resumen
 
-### 11. Herramientas utilizadas
+La página Resumen presenta los principales indicadores del negocio mediante tarjetas, gráficos y filtros interactivos.
 
-- **Python:** generación y validación de datos sintéticos.
-- **CSV:** almacenamiento de las tablas de datos.
-- **Visual Studio Code:** edición y organización del código y la documentación.
-- **Power Query:** limpieza y transformación de los datos.
-- **Power BI Desktop:** construcción del modelo, medidas DAX y tablero interactivo.
-- **Git y GitHub:** control de versiones y trabajo colaborativo.
+Su propósito es facilitar una visión general del comportamiento comercial de Nani Accesorios durante 2025.
 
-### 12. Diseño del tablero en Power BI
+### 12.2. Página Productos
 
-El tablero estará organizado en tres páginas:
+La página Productos permite analizar las ventas y utilidades por producto y categoría.
 
-#### 12.1. Resumen
+Esta página facilita la comparación del comportamiento de los productos y permite identificar las categorías que tienen mayor participación en los resultados comerciales.
 
-Responderá a la pregunta: ¿Cómo le fue al negocio durante 2025?
+### 12.3. Página Canales
 
-Incluirá:
+La página Canales muestra el comportamiento de las ventas según los medios de comercialización utilizados por la empresa.
 
-- Margen bruto porcentual.
-- Ventas netas.
-- Costo de ventas.
-- Unidades vendidas.
-- Tendencia mensual de ventas.
+Permite comparar los resultados de los diferentes canales y analizar su participación en las operaciones comerciales.
 
-#### 12.2. Productos
+## 13. Medidas DAX
 
-Responderá a la pregunta: ¿Qué categorías y productos dejan más margen?
+Para el análisis de la información se desarrollaron las siguientes medidas en Power BI:
 
-Incluirá:
+| Medida | Descripción |
+|---|---|
+| Ventas Brutas | Calcula el valor total de las ventas antes de descuentos |
+| Descuentos | Calcula el valor total descontado |
+| Ventas Netas | Representa las ventas después de aplicar descuentos |
+| Costos | Permite analizar el costo de los productos vendidos |
+| Utilidad | Permite analizar el resultado económico de las ventas |
+| Cantidad Vendida | Calcula las unidades comercializadas |
+| Número de Ventas | Permite analizar la cantidad de ventas registradas |
 
-- Ventas por categoría.
-- Margen bruto por categoría.
-- Comparación entre productos.
-- Jerarquía de categoría a producto con navegación drill-down.
+Estas medidas se utilizan en las tarjetas y visualizaciones del tablero para facilitar el análisis de la información.
 
-#### 12.3. Canales
+Las fórmulas DAX exactas se documentarán de acuerdo con las expresiones implementadas en el archivo `.pbix`.
 
-Responderá a la pregunta: ¿Qué canal conviene impulsar?
+## 14. Pruebas de funcionamiento e interactividad
 
-Incluirá:
+Se realizaron pruebas para comprobar que los filtros del tablero actualizan los indicadores y las visualizaciones de acuerdo con las selecciones realizadas.
 
-- Ventas por canal.
-- Margen bruto por canal.
-- Descuentos por canal.
-- Comparación del efecto de los descuentos sobre la rentabilidad.
+### 14.1. Prueba por canal
 
-El tablero contará con segmentadores para facilitar el análisis por mes y canal, además de interacciones entre sus visualizaciones.
+Se aplicó el filtro correspondiente al canal Instagram para verificar la actualización automática de los indicadores y gráficos.
 
-### 13. Recomendación empresarial
+### 14.2. Prueba por categoría
 
-La recomendación inicial consiste en revisar la política de descuentos antes de las temporadas de mayor demanda, comparando las ventas netas, los costos y el margen bruto de cada canal.
+Se seleccionó la categoría Aretes para comprobar el comportamiento de las ventas y utilidades correspondientes a esta selección.
 
-La persona responsable de la administración comercial de Nani Accesorios deberá revisar los resultados y definir los descuentos que se aplicarán en cada canal. Esta revisión debe realizarse al menos dos semanas antes de las temporadas de Día de la Madre, Amor y Amistad y Navidad.
+### 14.3. Prueba por ciudad
 
-La decisión definitiva sobre qué productos y canales deben recibir mayor promoción se establecerá con los resultados comprobados del tablero de Power BI, evitando recomendar descuentos únicamente por el volumen de ventas.
+Se aplicó un filtro de ciudad para comprobar la actualización dinámica de los indicadores.
 
-### 14. Overview & Insights
+Estas pruebas permitieron verificar el funcionamiento de los filtros y la interacción entre los datos del modelo.
 
-Nani Accesorios is a fictional accessories business located in Neiva, Colombia. This project analyzes its simulated sales operations during the year 2025. The dataset includes products, customers, sales channels, dates, quantities, prices, costs, and discounts. A star schema is used to organize the information and support business analysis. Python is used to generate and validate the synthetic data. Power Query is used to identify and correct data quality issues before analysis. Power BI is used to calculate business indicators and build an interactive dashboard. The dashboard compares product categories, sales channels, monthly performance, and gross profit margins. These results will support decisions about product promotions and discount strategies during important commercial seasons.
+## 15. Resultados e insights
 
-**Nota:** las conclusiones cuantitativas y los hallazgos específicos se completarán después de construir y comprobar el tablero en Power BI.
+El tablero permite analizar el comportamiento comercial de Nani Accesorios desde tres perspectivas: el resumen general, los productos y los canales de venta.
 
-### 15. Integrantes del proyecto
+A partir de las visualizaciones y los indicadores se pueden estudiar:
 
-**Danna Michelle Morales Losada**
+1. El comportamiento de las ventas durante el periodo de análisis.
+2. La participación de las categorías y productos en las ventas.
+3. Las utilidades obtenidas por producto y categoría.
+4. El comportamiento de los diferentes canales de comercialización.
+5. Los cambios en los indicadores al seleccionar un canal, una categoría o una ciudad.
 
-Responsable de la construcción y documentación de los componentes del proyecto, generación de datos y análisis de información.
+Los resultados cuantitativos específicos se incorporarán después de verificar las cifras definitivas del tablero de Power BI.
 
-**Alison Fernanda Puentes Avendaño**
+## 16. Conclusiones
 
-Responsable de participar en la preparación de datos, validación, construcción del análisis y documentación del proyecto.
+1. La implementación del modelo estrella permitió organizar adecuadamente la información y mejorar la estructura para realizar los análisis comerciales.
+
+2. Las medidas DAX facilitaron el cálculo de indicadores clave como ventas netas, utilidad y cantidad vendida.
+
+3. El dashboard desarrollado permite analizar rápidamente el comportamiento comercial de la empresa mediante visualizaciones interactivas.
+
+4. Los filtros implementados demostraron la correcta relación entre las tablas y la actualización dinámica de la información.
+
+5. El uso de Power Query permitió preparar los datos mediante la revisión de tipos de datos y la limpieza de inconsistencias antes de realizar el análisis.
+
+## 17. Diccionario de datos
+
+El modelo utiliza cinco tablas principales:
+
+| Tabla | Descripción | Clave principal |
+|---|---|---|
+| `dim_fecha` | Información del calendario de 2025 | `id_fecha` |
+| `dim_producto` | Información de los productos comercializados | `id_producto` |
+| `dim_cliente` | Información ficticia de los clientes | `id_cliente` |
+| `dim_canal` | Información de los canales de venta | `id_canal` |
+| `fact_ventas` | Detalles de las transacciones comerciales | `id_detalle_venta` |
+
+Las claves foráneas de la tabla de hechos permiten relacionar las ventas con las dimensiones de fecha, producto, cliente y canal.
+
+El detalle de los campos, tipos de datos y descripciones se organizará en el archivo `diccionario-datos.md`.
+
+## 18. Evidencias del desarrollo en Power BI
+
+Las evidencias fotográficas permiten comprobar las actividades realizadas durante el desarrollo del proyecto.
+
+### 18.1. Importación y transformación de datos
+
+Se documenta la importación de las cinco tablas y el proceso de limpieza realizado en Power Query.
+
+- [Importación de las tablas](evidencias/01-power-query/1.png)
+- [Limpieza y transformación de datos](evidencias/01-power-query/3.png)
+
+### 18.2. Modelo estrella
+
+Se presenta la estructura del modelo dimensional y las relaciones entre las tablas.
+
+- [Modelo estrella implementado](evidencias/02-modelo/1.png)
+
+### 18.3. Medidas DAX
+
+Se presenta la evidencia de las medidas creadas para realizar los cálculos de los indicadores comerciales.
+
+- [Medidas DAX implementadas](evidencias/03-medidas-dax/2.png)
+
+### 18.4. Páginas del tablero
+
+Se presentan las tres páginas desarrolladas en Power BI.
+
+- [Página Resumen](evidencias/04-tablero/1.png)
+- [Página Productos](evidencias/04-tablero/2.png)
+- [Página Canales](evidencias/04-tablero/3.png)
+
+### 18.5. Pruebas de funcionamiento
+
+Se presentan las pruebas realizadas para verificar la actualización dinámica de los indicadores y gráficos.
+
+- [Prueba de filtro por canal Instagram](evidencias/05-prueba-clic/1.png)
+- [Prueba de filtro por categoría Aretes](evidencias/05-prueba-clic/2.png)
+- [Prueba de filtro por ciudad](evidencias/05-prueba-clic/3.png)
+
+### 18.6. Evidencia fotográfica completa
+
+El documento consolidado de evidencias se encontrará en:
+
+## 19. Archivo del proyecto Power BI
+
+El archivo principal del análisis se almacenará en la carpeta `powerbi`.
+
+**Archivo:** `Nani_Accesorios.pbix`
+
+[Consultar archivo Power BI](power-bi/proyecto_final.pbix.zip)
+
+Este archivo contiene el modelo de datos, las transformaciones realizadas en Power Query, las medidas DAX y las páginas del tablero interactivo.
+
+Para visualizarlo se requiere Microsoft Power BI Desktop.
+
+## 20. Integrantes del proyecto
+
+### Danna Michelle Morales Losada
+
+Participante del desarrollo de la solución de Inteligencia de Negocios, generación de datos, preparación de la información, análisis y documentación del proyecto.
+
+### Alison Fernanda Puentes Avendaño
+
+Participante del desarrollo de la solución de Inteligencia de Negocios, preparación de datos, validación, construcción del análisis y documentación del proyecto.
 
 Ambas integrantes participan en el desarrollo y revisión de la solución de Inteligencia de Negocios.
